@@ -5,17 +5,17 @@
 
 const awsConfig = {
     Auth: {
-        identityPoolId: '', // example: 'us-east-2:c85f3c18-05fd-4bb5-8fd1-e77e7627a99e'
-        region: '', // example: 'us-east-2'
-        userPoolId: '', // example: 'us-east-2_teEUQbkUh'
-        userPoolWebClientId: '' // example: '3k09ptd8kn8qk2hpk07qopr86'
+        identityPoolId: 'us-west-2:6c1a5151-5d4c-4638-9c15-043b36773140', // example: 'us-east-2:c85f3c18-05fd-4bb5-8fd1-e77e7627a99e'
+        region: 'us-west-2', // example: 'us-east-2'
+        userPoolId: 'us-west-2_O6BFwX630', // example: 'us-east-2_teEUQbkUh'
+        userPoolWebClientId: '6qj9mr2qnk3idgj72j8ti5r7q5' // example: '3k09ptd8kn8qk2hpk07qopr86'
     },
     API: {
         endpoints: [
             {
                 name: 'WildRydesAPI',
-                endpoint: '', // example: 'https://u8swuvl00f.execute-api.us-east-2.amazonaws.com/prod'
-                region: '' // example: 'us-east-2'
+                endpoint: 'https://cjtn7e961b.execute-api.us-west-2.amazonaws.com/prod', // example: 'https://u8swuvl00f.execute-api.us-east-2.amazonaws.com/prod'
+                region: 'us-west-2' // example: 'us-east-2'
             }
         ]
     },
